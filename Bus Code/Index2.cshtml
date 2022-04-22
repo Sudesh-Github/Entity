@@ -1,0 +1,17 @@
+﻿@model IEnumerable<BusDemo.Models.BusInfo>
+
+@{
+    ViewBag.Title = "Index2";
+}
+
+<h2>Bus Table</h2>
+
+<ol>
+    @foreach(var item in Model)
+            {
+                <li>@item.BoardingPoint   </li>
+            }
+
+
+</ol>
+
